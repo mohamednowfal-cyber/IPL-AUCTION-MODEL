@@ -1,0 +1,230 @@
+Player Name	Team	Specialism	Base Price (₹ Cr)	Country	Capped/Uncapped
+Ravichandran Ashwin	CSK	AR	2.0	India	Capped
+Rachin Ravindra	CSK	AR	1.5	New Zealand	Capped
+Ravindra Jadeja	CSK	AR	2.0	India	Capped
+Shivam Dube	CSK	AR	2.0	India	Capped
+Jamie Overton	CSK	AR	1.5	England	Capped
+Axar Patel	DC	AR	2.0	India	Capped
+Rahul Tewatia	GT	AR	4.0	India	Capped
+Venkatesh Iyer	KKR	AR	2.0	India	Capped
+Varun Chakravarthy	KKR	AR	2.0	India	Capped
+Andre Russell	KKR	AR	2.0	West Indies	Capped
+Arshin Kulkarni	LSG	AR	0.3	India	Capped
+Mitchell Marsh	LSG	AR	2.0	Australia	Capped
+Raj Bawa	MI	AR	0.3	India	Capped
+Hardik Pandya	MI	AR	2.0	India	Capped
+Glenn Maxwell	PBKS	AR	2.0	Australia	Capped
+Marcus Stoinis	PBKS	AR	2.0	Australia	Capped
+Liam Livingstone	RCB	AR	2.0	England	Capped
+Yashasvi Jaiswal	RR	AR	2.0	India	Capped
+Harshal Patel	SRH	AR	2.0	India	Capped
+Pat Cummins	SRH	AR	2.0	Australia	Capped
+Yuvraj Chaudhary	LSG	AR	0.3	India	Capped (Cricbuzz)
+Nitish Rana	RR	AR	1.5	India	Capped (Cricbuzz, ESPN Cricinfo)
+Sam Curran	CSK	AR	2.0	England	Capped (England international)
+Krunal Pandya	RCB	AR	2.0	India	Capped (ESPN Cricinfo, Cricbuzz)
+Washington Sundar	GT	AR	2.0	India	Capped (ESPN Cricinfo, Wikipedia)
+Vijay Shankar	CSK	AR	0.3	India	Capped (India international)
+Abdul Samad	LSG	AR	0.3	India	Capped (India international)
+Jayant Yadav	GT	AR	0.75	India	Capped (IPL T20)
+Mitchell Santner	MI	AR	2.0	New Zealand	Capped (IPL T20)
+Suryansh Shedge	PBKS	AR	0.3	India	Capped (IPL T20)
+Aaron Hardie	PBKS	AR	1.25	Australia	Capped (IPL T20)
+Manoj Bhandage	RCB	AR	0.3	India	Capped (IPL T20)
+Jacob Bethell	RCB	AR	1.25	England	Capped (IPL T20)
+Brydon Carse	SRH	AR	1.0	England	Capped (IPL T20)
+Kamindu Mendis	SRH	AR	0.75	Sri Lanka	Capped (IPL T20)
+Harpreet Brar	PBKS	AR	0.3	India	Capped (IPL/domestic)
+Ramakrishna Ghosh	CSK	AR	0.3	India	Capped (myKhel)
+Karim Janat	GT	AR	0.75	Afghanistan	Capped (Rediff)
+Mahipal Lomror	GT	AR	0.5	India	Capped (The Times of India, ESPN Cricinfo)
+Ashutosh Sharma	DC	AR	0.3	India	Capped (Wikipedia, ESPN Cricinfo)
+Marco Jansen	PBKS	AR	1.25	South Africa	Capped (Wikipedia, icc)
+Vipraj Nigam	DC	AR	0.3	India	Uncapped
+Sameer Rizvi	DC	AR	0.3	India	Uncapped
+Sai Sudharsan	GT	AR	2.0	India	Uncapped
+M Shahrukh Khan	GT	AR	2.0	India	Uncapped
+Ramandeep Singh	KKR	AR	2.0	India	Uncapped
+Ayush Badoni	LSG	AR	2.0	India	Uncapped
+Naman Dhir	MI	AR	0.3	India	Uncapped
+Tilak Varma	MI	AR	2.0	India	Uncapped
+Shashank Singh	PBKS	AR	2.0	India	Uncapped
+Riyan Parag	RR	AR	2.0	India	Uncapped
+Abhishek Sharma	SRH	AR	2.0	India	Uncapped
+Nitish Kumar Reddy	SRH	AR	2.0	India	Uncapped
+Nishant Sindhu	GT	AR	0.3	India	Uncapped (ESPN Cricinfo)
+Anshul Kamboj	CSK	AR	0.3	India	Uncapped (Hindustan Times)
+Arshad Khan	GT	AR	0.3	India	Uncapped (Hindustan Times)
+Anukul Roy	KKR	AR	0.3	India	Uncapped (Hindustan Times)
+Kamlesh Nagarkoti	CSK	AR	0.3	India	Uncapped (IPL T20)
+Darshan Nalkande	DC	AR	0.3	India	Uncapped (IPL T20)
+Musheer Khan	PBKS	AR	0.3	India	Uncapped (IPL T20)
+Swapnil Singh	RCB	AR	0.3	India	Uncapped (IPL T20)
+Priyansh Arya	PBKS	AR	0.3	India	Uncapped (IPL T20, Wikipedia)
+Rajvardhan Hangargekar	LSG	AR	0.3	India	Uncapped (mint, IPL T20)
+Yudhvir Singh	RR	AR	0.3	India	Uncapped (myKhel)
+Manvanth Kumar	DC	AR	0.3	India	Uncapped (Rediff)
+Ajay Mandal	DC	AR	0.3	India	Uncapped (Rediff)
+Praveen Dubey	PBKS	AR	0.3	India	Uncapped (Rediff)
+Madhav Tiwari	DC	AR	0.4	India	Uncapped (X (formerly Twitter), Rediff)
+Tripurana Vijay	DC	AR	0.3	India	Uncapped (X (formerly Twitter), Rediff)
+Mohit Rathee	RCB	AR (All‑rounder)	0.3	India	Uncapped
+Rahul Tripathi	CSK	BAT	0.75	India	Capped
+Devon Conway	CSK	BAT	2.0	New Zealand	Capped
+Ruturaj Gaikwad	CSK	BAT	2.0	India	Capped
+MS Dhoni	CSK	BAT	2.0	India	Capped
+Jake Fraser-McGurk	DC	BAT	2.0	Australia	Capped
+Harry Brook	DC	BAT	2.0	England	Capped
+KL Rahul	DC	BAT	2.0	India	Capped
+Jos Buttler	GT	BAT	2.0	England	Capped
+Shubman Gill	GT	BAT	2.0	India	Capped
+Manish Pandey	KKR	BAT	0.75	India	Capped
+Rahmanullah Gurbaz	KKR	BAT	2.0	Afghanistan	Capped
+Quinton de Kock	KKR	BAT	2.0	South Africa	Capped
+Rinku Singh	KKR	BAT	2.0	India	Capped
+Aiden Markram	LSG	BAT	2.0	South Africa	Capped
+David Miller	LSG	BAT	1.5	South Africa	Capped
+Rishabh Pant	LSG	BAT	2.0	India	Capped
+Nicholas Pooran	LSG	BAT	2.0	West Indies	Capped
+Suryakumar Yadav	MI	BAT	2.0	India	Capped
+Rohit Sharma	MI	BAT	2.0	India	Capped
+Pyla Avinash	PBKS	BAT	0.3	India	Capped
+Vishnu Vinod	PBKS	BAT	0.3	India	Capped
+Shreyas Iyer	PBKS	BAT	2.0	India	Capped
+Jitesh Sharma	RCB	BAT	1.0	India	Capped
+Phil Salt	RCB	BAT	2.0	England	Capped
+Devdutt Padikkal	RCB	BAT	2.0	India	Capped
+Virat Kohli	RCB	BAT	2.0	India	Capped
+Sanju Samson	RR	BAT	2.0	India	Capped
+Shimron Hetmyer	RR	BAT	2.0	West Indies	Capped
+Ishan Kishan	SRH	BAT	2.0	India	Capped
+Heinrich Klaasen	SRH	BAT	2.0	South Africa	Capped
+Travis Head	SRH	BAT	2.0	Australia	Capped
+Ajinkya Rahane	KKR	BAT	1.5	India	Capped (Cricbuzz, ESPN Cricinfo)
+Vansh Bedi	CSK	BAT	0.3	India	Capped (Cricbuzz, IPL T20)
+Faf du Plessis	DC	BAT	2.0	South Africa	Capped (ESPN Cricinfo, Cricbuzz)
+Ryan Rickelton	MI	BAT	1.0	South Africa	Capped (ESPN Cricinfo, icc)
+Karun Nair	DC	BAT	0.3	India	Capped (Reuters, Wikipedia)
+Donovan Ferreira	DC	BAT	0.75	South Africa	Capped (Wikipedia, Cricbuzz)
+Glenn Phillips	GT	BAT	2.0	New Zealand	Capped (Wikipedia, icc)
+Rovman Powell	KKR	BAT	1.5	West Indies	Capped (Wikipedia, icc)
+Josh Inglis	PBKS	BAT	2.0	Australia	Capped (Wikipedia, perthscorchers.com.au)
+C Andre Siddarth	CSK	BAT	0.3	India	Uncapped
+Tristan Stubbs	DC	BAT	2.0	South Africa	Uncapped
+Abishek Porel	DC	BAT	2.0	India	Uncapped
+Anuj Rawat	GT	BAT	0.3	India	Uncapped
+Luvnith Sisodia	KKR	BAT	0.3	India	Uncapped
+Angkrish Raghuvanshi	KKR	BAT	0.3	India	Uncapped
+Aryan Juyal	LSG	BAT	0.3	India	Uncapped
+Nehal Wadhera	PBKS	BAT	0.3	India	Uncapped
+Prabhsimran Singh	PBKS	BAT	2.0	India	Uncapped
+Rajat Patidar	RCB	BAT	1.0	India	Uncapped
+Dhruv Jurel	RR	BAT	2.0	India	Uncapped
+Aniket Verma	SRH	BAT	0.3	India	Uncapped
+Atharva Taide	SRH	BAT	0.3	India	Uncapped
+Robin Minz	MI	BAT	0.3	India	Uncapped (ESPN Cricinfo, Wikipedia)
+Shaik Rasheed	CSK	BAT	0.3	India	Uncapped (Hindustan Times)
+Himmat Singh	LSG	BAT	0.3	India	Uncapped (Hindustan Times)
+Swastik Chikara	RCB	BAT	0.3	India	Uncapped (Hindustan Times)
+Krishnan Shrijith	MI	BAT	0.3	India	Uncapped (IPL T20)
+Shubham Dubey	RR	BAT	0.3	India	Uncapped (IPL T20)
+Harnoor Singh	PBKS	BAT	0.3	India	Uncapped (IPL T20, CricClubs Blog)
+Matthew Breetzke	LSG	BAT	0.75	South Africa	Uncapped (Rediff)
+Sachin Baby	SRH	BAT	0.3	India	Uncapped (Rediff)
+Vaibhav Suryavanshi	RR	BAT	1.1	India	Uncapped (The Times of India, Rediff)
+Kunal Singh Rathore	RR	BAT	0.3	India	Uncapped (Wikipedia)
+Abhinav Manohar	SRH	BAT	0.3	India	Uncapped (Wikipedia)
+Kumar Kushagra	GT	BAT	0.3	India	Uncapped (Wikipedia, ESPN Cricinfo)
+Bevon Jacobs	MI	BAT	0.3	South Africa*	Uncapped (X (formerly Twitter), X (formerly Twitter))
+Mukesh Kumar	DC	BOWL	2.0	India	Capped
+Mohit Sharma	DC	BOWL	0.5	India	Capped
+T Natarajan	DC	BOWL	2.0	India	Capped
+Mitchell Starc	DC	BOWL	2.0	Australia	Capped
+Kuldeep Yadav	DC	BOWL	2.0	India	Capped
+Kulwant Khejroliya	GT	BOWL	0.3	India	Capped
+Prasidh Krishna	GT	BOWL	2.0	India	Capped
+Mohammed Siraj	GT	BOWL	2.0	India	Capped
+Kagiso Rabada	GT	BOWL	2.0	South Africa	Capped
+Rashid Khan	GT	BOWL	2.0	Afghanistan	Capped
+Umran Malik	KKR	BOWL	0.75	India	Capped
+Anrich Nortje	KKR	BOWL	2.0	South Africa	Capped
+Sunil Narine	KKR	BOWL	2.0	West Indies	Capped
+Akash Deep	LSG	BOWL	1.0	India	Capped
+Shamar Joseph	LSG	BOWL	0.75	West Indies	Capped
+Avesh Khan	LSG	BOWL	2.0	India	Capped
+Ravi Bishnoi	LSG	BOWL	2.0	India	Capped
+Lizaad Williams	MI	BOWL	0.75	South Africa	Capped
+Allah Ghazanfar	MI	BOWL	0.75	Afghanistan	Capped
+Deepak Chahar	MI	BOWL	2.0	India	Capped
+Jasprit Bumrah	MI	BOWL	2.0	India	Capped
+Lockie Ferguson	PBKS	BOWL	2.0	New Zealand	Capped
+Yuzvendra Chahal	PBKS	BOWL	2.0	India	Capped
+Arshdeep Singh	PBKS	BOWL	2.0	India	Capped
+Nuwan Thushara	RCB	BOWL	0.75	Sri Lanka	Capped
+Josh Hazlewood	RCB	BOWL	2.0	Australia	Capped
+Bhuvneshwar Kumar	RCB	BOWL	2.0	India	Capped
+Lungi Ngidi	RCB	BOWL	1.0	South Africa	Capped
+Wanindu Hasaranga	RR	BOWL	2.0	Sri Lanka	Capped
+Maheesh Theekshana	RR	BOWL	2.0	Sri Lanka	Capped
+Jofra Archer	RR	BOWL	2.0	England	Capped
+Sandeep Sharma	RR	BOWL	2.0	India	Capped
+Jaydev Unadkat	SRH	BOWL	1.0	India	Capped
+Adam Zampa	SRH	BOWL	2.0	Australia	Capped
+Rahul Chahar	SRH	BOWL	1.0	India	Capped
+Mohammed Shami	SRH	BOWL	2.0	India	Capped
+Shreyas Gopal	CSK	BOWL	0.3	India	Capped 
+Gerald Coetzee	GT	BOWL	1.25	South Africa	Capped 
+Dushmantha Chameera	DC	BOWL	0.75	Sri Lanka	Capped
+Karn Sharma	MI	BOWL	0.5	India	Capped
+Nathan Ellis	CSK	BOWL	1.25	Australia	Capped 
+Akash Singh	LSG	BOWL	0.3	India	Capped 
+Reece Topley	MI	BOWL	0.75	England	Capped 
+Kuldeep Sen	PBKS	BOWL	0.75	India	Capped 
+Kwena Maphaka	RR	BOWL	0.75	South Africa	Capped 
+Fazalhaq Farooqi	RR	BOWL	2.0	Afghanistan	Capped 
+Mayank Markande	KKR	BOWL	0.3	India	Capped
+Trent Boult	MI	BOWL	2.0	New Zealand	Capped 
+Simarjeet Singh	SRH	BOWL	0.3	India	Capped 
+Vaibhav Arora	KKR	BOWL	0.3	India	Capped 
+Tushar Deshpande	RR	BOWL	1.0	India	Capped 
+Noor Ahmad	CSK	BOWL	2.0	Afghanistan	Capped 
+Yash Thakur	PBKS	BOWL	0.4	India	Capped 
+Matheesha Pathirana	CSK	BOWL	2.0	Sri Lanka	Uncapped
+Harshit Rana	KKR	BOWL	2.0	India	Uncapped
+Mayank Yadav	LSG	BOWL	2.0	India	Uncapped
+Mohsin Khan	LSG	BOWL	2.0	India	Uncapped
+Vignesh Puthur	MI	BOWL	0.3	India	Uncapped
+Abhinandan Singh	RCB	BOWL	0.3	India	Uncapped
+Rasikh Salam	RCB	BOWL	0.3	India	Uncapped
+Yash Dayal	RCB	BOWL	2.0	India	Uncapped
+Akash Madhwal	RR	BOWL	0.3	India	Uncapped
+Ashok Sharma	RR	BOWL	0.3	India	Uncapped
+Khaleel Ahmed	CSK	BOWL	2.0	India	Uncapped 
+Gurnoor Brar	GT	BOWL	0.3	India	Uncapped 
+Manimaran Siddharth	LSG	BOWL	0.3	India	Uncapped 
+Suyash Sharma	RCB	BOWL	0.3	India	Uncapped 
+Mukesh Choudhary GT	BOWL	0.3	India	Uncapped 
+Prince Yadav	LSG	BOWL	0.3	India	Uncapped 
+Digvesh Rathi	LSG	BOWL	0.3	India	Uncapped 
+Ashwani Kumar	MI	BOWL	0.3	India	Uncapped 
+Xavier Bartlett	PBKS	BOWL	0.75	Australia	Uncapped 
+Zeeshan Ansari	SRH	BOWL	0.3	India	Uncapped
+Satyanarayana Raju	MI	BOWL	0.3	India	Uncapped 
+Ishant Sharma	GT	BOWL	0.75	India	Uncapped
+Arjun Tendulkar	MI	BOWL	0.3	India	Uncapped 
+Eshan Malinga	SRH	BOWL	1.2	India	Uncapped 
+Manav Suthar	GT	BOWL	0.3	India	Uncapped 
+Gurjapneet Singh	CSK	BOWL	0.3	India	Uncapped 
+Kumar Kartikeya	RR	BOWL	0.3	India	Uncapped 
+Vijaykumar Vyshak	PBKS	BOWL	0.3	India	Uncapped
+Dewald Brevis    CSK    BAT   2  South Africa     Uncapped
+Mustafizur Rahman 	DC	BOWL	1	Bangladesh	Capped
+Urvil Patel	CSK	BAT	0.3	India	Uncapped
+Corbin Bosch	MI	BOWL	0.5	South Africa	Capped
+Richard Gleeson	MI	BOWL	0.5	England	Capped
+Jonny Bairstow	MI	BOWL	2	England	Capped
+Will Jacks	MI	AR	1	England	Capped
+Mayank Agarwal	RCB	BAT	2	India	Capped
+Tim David	RCB	BAT	2	Australia	Capped
+Shardul Thakur	LSG	BOWL	2	India	Capped
+william O'rourke	LSG	BOWL	1	New Zealand	Capped

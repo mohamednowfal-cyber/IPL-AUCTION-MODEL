@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Auction 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Top Navigation Bar -->
+        <div class="top-bar">
+            <div class="budget-display">
+                <i class="fas fa-cricket"></i>
+                <span id="totalBudget">IPL AUCTION</span>
+            </div>
+            <nav class="nav-buttons">
+                <button class="nav-btn active">Auction</button>
+                <button class="nav-btn">Prev</button>
+                <button id="skipPlayer" class="nav-btn">Skip</button>
+                <button id="sellPlayer" class="nav-btn sell-btn">Sell</button>
+                <button id="useRTM" class="nav-btn">Use RTM</button>
+                <button class="nav-btn">Start Auto Bidding</button>
+                <button class="nav-btn">Reset</button>
+            </nav>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-btn" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Player Section (Left) -->
+            <div class="player-section">
+                <div class="player-card">
+                    <div class="player-image">
+                        <img id="playerImage" src="https://via.placeholder.com/200x200/4A90E2/FFFFFF?text=Player" alt="Player Image">
+                    </div>
+                    <div class="player-info">
+                        <h2 id="playerName">Ravichandran Ashwin</h2>
+                        <div class="player-details">
+                            <div class="detail-item">
+                                <span class="label">Role:</span>
+                                <span id="playerRole">All-Rounder</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Country:</span>
+                                <span id="playerCountry">India</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Base:</span>
+                                <span id="playerBasePrice">200 L</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Prev Team:</span>
+                                <span id="playerPreviousTeam">CSK</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Player Statistics -->
+                        <div class="player-stats">
+                            <h4>Performance Stats</h4>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <div class="stat-value" id="playerMatches">-</div>
+                                    <div class="stat-label">Matches</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="playerRuns">-</div>
+                                    <div class="stat-label">Runs</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="playerWickets">-</div>
+                                    <div class="stat-label">Wickets</div>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <div class="stat-value" id="playerAvg">-</div>
+                                    <div class="stat-label">Avg</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="playerSR">-</div>
+                                    <div class="stat-label">SR</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="playerEcon">-</div>
+                                    <div class="stat-label">Econ</div>
+                                </div>
+                            </div>
+                            <div class="additional-info">
+                                <div class="info-item">
+                                    <span class="info-label">Last IPL Season:</span>
+                                    <span id="lastSeason">2023</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Experience:</span>
+                                    <span id="playerExperience">-</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Bidding Controls -->
+                            <div class="bidding-controls">
+                                <div class="bidding-instructions">
+                                    <span>Place bid (click team button to increase by step)</span>
+                                </div>
+                                <div class="team-buttons" id="teamButtons">
+                                    <!-- Team buttons will be dynamically generated -->
+                                </div>
+                                <div class="bid-step">
+                                    <span>Bid Step</span>
+                                    <div class="step-options">
+                                        <button class="step-btn active" data-step="10">10L</button>
+                                        <button class="step-btn" data-step="25">25L</button>
+                                        <button class="step-btn" data-step="50">50L</button>
+                                        <button class="step-btn" data-step="100">1Cr</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bidding Status Section (Right) -->
+            <div class="bidding-section">
+                <div class="bidding-status">
+                    <h3>Current Highest Bid</h3>
+                    <div class="bid-amount" id="currentBidAmount">2 Cr</div>
+                    <div class="bid-status" id="currentBidTeam">No bids yet</div>
+                </div>
+                
+                <!-- Team Details -->
+                <div class="team-details">
+                    <h3>Team Details</h3>
+                    <div class="teams-list" id="teamsList">
+                        <!-- Teams will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Team Players Section -->
+                <div class="team-players-section">
+                    <h3>Team Players</h3>
+                    <div class="team-players-list" id="teamPlayersList">
+                        <!-- Team players will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Section: Auction History, Upcoming Players, Summary -->
+        <div class="middle-section">
+            <!-- Auction History -->
+            <div class="auction-history">
+                <h3>Live Bidding Log</h3>
+                <div class="bidding-log" id="biddingLog">
+                    <div class="log-entry">Auction Started</div>
+                </div>
+            </div>
+
+            <!-- Upcoming Players -->
+            <div class="upcoming-players">
+                <h3>Upcoming Players</h3>
+                <div class="upcoming-list" id="upcomingList">
+                    <!-- Upcoming players will be populated here -->
+                </div>
+            </div>
+
+            <!-- Summary Stats -->
+            <div class="summary-stats">
+                <h3>Auction Summary</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalSold">0</div>
+                        <div class="stat-label">Players Sold</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalUnsold">0</div>
+                        <div class="stat-label">Unsold</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalSpent">₹0 Cr</div>
+                        <div class="stat-label">Total Spent</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Info Section -->
+        <div class="additional-info-section">
+            <!-- Live Stats -->
+            <div class="live-stats">
+                <h3>Live Statistics</h3>
+                <div class="live-stats-grid">
+                    <div class="live-stat-item">
+                        <div class="live-stat-value" id="currentBidCount">0</div>
+                        <div class="live-stat-label">Bids Placed</div>
+                    </div>
+                    <div class="live-stat-item">
+                        <div class="live-stat-value" id="averageBidAmount">₹0 Cr</div>
+                        <div class="live-stat-label">Avg Bid Amount</div>
+                    </div>
+                    <div class="live-stat-item">
+                        <div class="live-stat-value" id="highestBidAmount">₹0 Cr</div>
+                        <div class="live-stat-label">Highest Bid</div>
+                    </div>
+                    <div class="live-stat-item">
+                        <div class="live-stat-value" id="remainingBudget">₹1000 Cr</div>
+                        <div class="live-stat-label">Remaining Budget</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="recent-activity">
+                <h3>Recent Activity</h3>
+                <div class="activity-list" id="activityList">
+                    <div class="activity-item">Auction Started</div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <h3>Quick Actions</h3>
+                <div class="action-buttons">
+                    <button class="action-btn" id="pauseAuction">Pause Auction</button>
+                    <button class="action-btn" id="resumeAuction">Resume Auction</button>
+                    <button class="action-btn" id="exportData">Export Data</button>
+                    <button class="action-btn" id="viewReport">View Report</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- RTM Modal -->
+        <div id="rtmModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Right to Match (RTM)</h3>
+                <p>Select a team to use their RTM card:</p>
+                <div class="rtm-teams" id="rtmTeams">
+                    <!-- RTM teams will be populated here -->
+                </div>
+                <button id="confirmRTM" class="action-btn">Confirm RTM</button>
+            </div>
+        </div>
+
+        <!-- Auction Summary Modal -->
+        <div id="summaryModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Auction Summary</h3>
+                <div id="auctionSummary">
+                    <!-- Summary will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="player_data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
